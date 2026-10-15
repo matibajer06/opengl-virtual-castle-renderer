@@ -6,7 +6,9 @@ The project features dynamic lighting (directional sun, 6 torch point lights, an
 
 ## Demo
 
-![Demo Preview](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="3D Castle Demo" width="85%">
+</p>
 
 ## Features
 
@@ -30,7 +32,8 @@ The project features dynamic lighting (directional sun, 6 torch point lights, an
 ```text
 ├── assets/
 │   ├── models/            # Subfolders with OBJ files
-│   └── textures/          # PPM texture files
+│   ├── textures/          # PPM texture files
+|   └── demo.gif		   # gif version of a demo
 ├── shaders/
 │   ├── castle.vert        # Vertex transforms and flag wave animation
 │   └── castle.frag        # Multi-light Phong shading
